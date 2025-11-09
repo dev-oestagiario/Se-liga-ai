@@ -1,0 +1,317 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+@plugin "daisyui/theme" {
+  name: "light-educacional";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+
+  /* Base colors */
+  --color-base-100: #ffffff;      /* Fundo principal */
+  --color-base-200: #f5f5f5;      /* Fundo secundário */
+  --color-base-300: #e5e5e5;      /* Fundo terciário */
+  --color-base-content: #1f1f1f;  /* Texto padrão */
+
+  /* Primary colors */
+  --color-primary: #9d5c72;        /* Rosa */
+  --color-primary-content: #ffffff;
+
+  /* Secondary colors */
+  --color-secondary: #6a5d79;      /* Roxo meio cinza */
+  --color-secondary-content: #ffffff;
+
+  /* Accent colors */
+  --color-accent: #f9aa5b;         /* Laranja */
+  --color-accent-content: #1f1f1f;
+  
+  /* Highlight / additional accent */
+  --color-accent-2: #fbcc58;       /* Amarelo claro */
+  --color-accent-2-content: #1f1f1f;
+
+  /* Neutral / muted */
+  --color-neutral: #494a67;        /* Roxo escuro */
+  --color-neutral-content: #ffffff;
+
+  /* Feedback colors */
+  --color-info: hsl(193 82% 45%);
+  --color-info-content: hsl(0 0% 100%);
+  --color-success: hsl(142 76% 36%);
+  --color-success-content: hsl(0 0% 100%);
+  --color-warning: hsl(24 100% 65%);
+  --color-warning-content: hsl(0 0% 100%);
+  --color-error: hsl(0 84% 60%);
+  --color-error-content: hsl(0 0% 100%);
+
+  /* Radius & sizes */
+  --radius-box: var(--radius);
+  --radius-btn: var(--radius);
+  --radius-badge: var(--radius);
+
+  /* Borders */
+  --border-btn: 1px solid hsl(var(--border) / 1);
+  --border-card: 1px solid hsl(var(--border) / 1);
+
+  /* Shadows */
+  --shadow-btn: 0 2px 6px hsl(var(--shadow-soft) / 0.3);
+  --shadow-card: 0 8px 30px hsl(var(--shadow-medium) / 0.15);
+}
+
+
+
+@plugin "daisyui/theme" {
+  name: "dark-modern";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+
+  /* Base colors */
+  --color-base-100: #1e1e2f;      /* Fundo principal */
+  --color-base-200: #2a2a3c;      /* Fundo secundário */
+  --color-base-300: #3a3a4d;      /* Fundo terciário */
+  --color-base-content: #e0e0e0;  /* Texto padrão */
+
+  /* Primary colors */
+  --color-primary: #4f46e5;       /* Azul forte */
+  --color-primary-content: #ffffff;
+
+  /* Secondary colors */
+  --color-secondary: #f472b6;     /* Rosa vibrante */
+  --color-secondary-content: #ffffff;
+
+  /* Accent colors */
+  --color-accent: #10b981;        /* Verde */
+  --color-accent-content: #ffffff;
+  --color-accent-2: #fbbf24;      /* Amarelo */
+  --color-accent-2-content: #1f1f1f;
+
+  /* Neutral / muted */
+  --color-neutral: #6b7280;       /* Cinza */
+  --color-neutral-content: #ffffff;
+
+  /* Feedback colors */
+  --color-info: hsl(193 82% 45%);
+  --color-info-content: hsl(0 0% 100%);
+  --color-success: hsl(142 76% 36%);
+  --color-success-content: hsl(0 0% 100%);
+  --color-warning: hsl(24 100% 65%);
+  --color-warning-content: hsl(0 0% 100%);
+  --color-error: hsl(0 84% 60%);
+  --color-error-content: hsl(0 0% 100%);
+
+  /* Radius & sizes */
+  --radius-box: var(--radius);
+  --radius-btn: var(--radius);
+  --radius-badge: var(--radius);
+
+  /* Borders */
+  --border-btn: 1px solid hsl(var(--border) / 1);
+  --border-card: 1px solid hsl(var(--border) / 1);
+
+  /* Shadows */
+  --shadow-btn: 0 2px 6px hsl(var(--shadow-soft) / 0.3);
+  --shadow-card: 0 8px 30px hsl(var(--shadow-medium) / 0.15);
+}
+
+@plugin "daisyui/theme" {
+  name: "sunny-light";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+
+  /* Base colors */
+  --color-base-100: #fffbe6;      /* Fundo principal */
+  --color-base-200: #fff3c4;      /* Fundo secundário */
+  --color-base-300: #ffecb3;      /* Fundo terciário */
+  --color-base-content: #222222;  /* Texto padrão */
+
+  /* Primary colors */
+  --color-primary: #f59e0b;       /* Laranja vivo */
+  --color-primary-content: #ffffff;
+
+  /* Secondary colors */
+  --color-secondary: #3b82f6;     /* Azul */
+  --color-secondary-content: #ffffff;
+
+  /* Accent colors */
+  --color-accent: #10b981;        /* Verde */
+  --color-accent-content: #ffffff;
+  --color-accent-2: #f43f5e;      /* Vermelho claro */
+  --color-accent-2-content: #ffffff;
+
+  /* Neutral / muted */
+  --color-neutral: #6b7280;       /* Cinza escuro */
+  --color-neutral-content: #ffffff;
+
+  /* Feedback colors */
+  --color-info: hsl(193 82% 45%);
+  --color-info-content: hsl(0 0% 100%);
+  --color-success: hsl(142 76% 36%);
+  --color-success-content: hsl(0 0% 100%);
+  --color-warning: hsl(24 100% 65%);
+  --color-warning-content: hsl(0 0% 100%);
+  --color-error: hsl(0 84% 60%);
+  --color-error-content: hsl(0 0% 100%);
+
+  /* Radius & sizes */
+  --radius-box: var(--radius);
+  --radius-btn: var(--radius);
+  --radius-badge: var(--radius);
+
+  /* Borders */
+  --border-btn: 1px solid hsl(var(--border) / 1);
+  --border-card: 1px solid hsl(var(--border) / 1);
+
+  /* Shadows */
+  --shadow-btn: 0 2px 6px hsl(var(--shadow-soft) / 0.3);
+  --shadow-card: 0 8px 30px hsl(var(--shadow-medium) / 0.15);
+}
+
+@plugin "daisyui/theme" {
+  name: "forest-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+
+  /* Base colors */
+  --color-base-100: #0f1f13;      /* Fundo principal */
+  --color-base-200: #163225;      /* Fundo secundário */
+  --color-base-300: #1e3a2c;      /* Fundo terciário */
+  --color-base-content: #e6f0e6;  /* Texto padrão */
+
+  /* Primary colors */
+  --color-primary: #22c55e;       /* Verde vivo */
+  --color-primary-content: #ffffff;
+
+  /* Secondary colors */
+  --color-secondary: #14b8a6;     /* Verde azulado */
+  --color-secondary-content: #ffffff;
+
+  /* Accent colors */
+  --color-accent: #facc15;        /* Amarelo */
+  --color-accent-content: #1f1f1f;
+  --color-accent-2: #f97316;      /* Laranja escuro */
+  --color-accent-2-content: #ffffff;
+
+  /* Neutral / muted */
+  --color-neutral: #374151;       /* Cinza escuro */
+  --color-neutral-content: #ffffff;
+
+  /* Feedback colors */
+  --color-info: hsl(193 82% 45%);
+  --color-info-content: hsl(0 0% 100%);
+  --color-success: hsl(142 76% 36%);
+  --color-success-content: hsl(0 0% 100%);
+  --color-warning: hsl(24 100% 65%);
+  --color-warning-content: hsl(0 0% 100%);
+  --color-error: hsl(0 84% 60%);
+  --color-error-content: hsl(0 0% 100%);
+
+  /* Radius & sizes */
+  --radius-box: var(--radius);
+  --radius-btn: var(--radius);
+  --radius-badge: var(--radius);
+
+  /* Borders */
+  --border-btn: 1px solid hsl(var(--border) / 1);
+  --border-card: 1px solid hsl(var(--border) / 1);
+
+  /* Shadows */
+  --shadow-btn: 0 2px 6px hsl(var(--shadow-soft) / 0.3);
+  --shadow-card: 0 8px 30px hsl(var(--shadow-medium) / 0.15);
+}
+
+@plugin "daisyui/theme" {
+  name: "lavender-pink";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+
+  /* Base */
+  --color-base-100: #ffffff;    /* Fundo principal */
+  --color-base-200: #f8f0fc;    /* Fundo secundário */
+  --color-base-300: #f1e6f9;    /* Fundo terciário */
+  --color-base-content: #2c1a34; /* Texto padrão */
+
+  /* Primary / Rosa */
+  --color-primary: #f7a6c1;     /* Rosa */
+  --color-primary-content: #ffffff;
+
+  /* Secondary / Roxo claro */
+  --color-secondary: #cfa5f7;   /* Roxo claro */
+  --color-secondary-content: #2c1a34;
+
+  /* Accent / Destaque */
+  --color-accent: #fbe5f7;      /* Rosa bem claro */
+  --color-accent-content: #2c1a34;
+
+  /* Neutros */
+  --color-neutral: #a88bbd;      /* Roxo suave */
+  --color-neutral-content: #ffffff;
+
+  /* Feedback */
+  --color-info: #a2d2f7;
+  --color-info-content: #2c1a34;
+  --color-success: #b7f7c5;
+  --color-success-content: #2c1a34;
+  --color-warning: #fcd5ce;
+  --color-warning-content: #2c1a34;
+  --color-error: #f28fa0;
+  --color-error-content: #ffffff;
+
+  /* Radius e bordas */
+  --radius-box: 1rem;
+  --radius-btn: 0.75rem;
+  --radius-badge: 0.5rem;
+  --border-btn: 1px solid hsl(var(--border) / 1);
+  --border-card: 1px solid hsl(var(--border) / 1);
+}
+
+
+@plugin "daisyui/theme" {
+  name: "lilac-dream";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+
+  /* Base */
+  --color-base-100: #ffffff;    /* Fundo principal */
+  --color-base-200: #f4f0f8;    /* Fundo secundário */
+  --color-base-300: #ebe6f3;    /* Fundo terciário */
+  --color-base-content: #2a1f3d; /* Texto padrão */
+
+  /* Primary / Lilás */
+  --color-primary: #b39ddb;     /* Lilás */
+  --color-primary-content: #ffffff;
+
+  /* Secondary / Roxo médio */
+  --color-secondary: #9575cd;   /* Roxo médio */
+  --color-secondary-content: #ffffff;
+
+  /* Accent / Destaque suave */
+  --color-accent: #d1c4e9;      /* Lilás bem claro */
+  --color-accent-content: #2a1f3d;
+
+  /* Neutros */
+  --color-neutral: #7e57c2;      /* Roxo suave */
+  --color-neutral-content: #ffffff;
+
+  /* Feedback */
+  --color-info: #9fa8da;        /* Azul lilás */
+  --color-info-content: #2a1f3d;
+  --color-success: #c5e1a5;     /* Verde suave */
+  --color-success-content: #2a1f3d;
+  --color-warning: #ffe082;     /* Amarelo suave */
+  --color-warning-content: #2a1f3d;
+  --color-error: #e57373;       /* Vermelho suave */
+  --color-error-content: #ffffff;
+
+  /* Radius e bordas */
+  --radius-box: 1rem;
+  --radius-btn: 0.75rem;
+  --radius-badge: 0.5rem;
+  --border-btn: 1px solid hsl(var(--border) / 1);
+  --border-card: 1px solid hsl(var(--border) / 1);
+}
